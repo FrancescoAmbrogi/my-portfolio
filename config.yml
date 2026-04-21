@@ -1,0 +1,116 @@
+baseURL: "https://pascalmichaillat.org/hugo-website/" 
+title: Francesco Ambrogi
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Projects
+          url: projects/
+          weight: 1 
+            #        - name: Publications
+            #          url: publications/
+            #          weight: 2
+        - name: Posts
+          url: posts/
+          weight: 2
+        - name: Talks
+          url: talks/
+          weight: 3 
+            #        - name: Blog
+            # url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            # weight: 6
+
+params:
+    description: "Welcome to my personal portfolio. I am a professor in mechanical engineering at Queen's University, a man of God, a husband, and a father. My research interests include boundary layer theory, particle-laden flows, computational fluid dynamics, direct numerical and large eddy simulations of turbulent flows.."
+    author: Francesco Ambrogi
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "April 2026"
+    defaultTheme: dark
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["posts","projects","talks"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Francesco Ambrogi, PhD
+          subtitle: "Welcome to my personal portfolio. I am an assistant professor in mechanical engineering at Queen's University, a man of God, a husband, and a father. My research interests include boundary layer theory, unsteady aerodynamics, biomimicry, computational fluid dynamics, direct numerical and large eddy simulations of turbulent flows."
+          imageUrl: "avatar.jpg"
+          imageWidth: 250
+          imageHeight: 300
+          buttons:
+            #            - name: Papers
+            #              url: papers/
+            - name: Projects
+              url: projects/ 
+            - name: Posts
+              url: posts/
+            - name: Talks
+              url: talks/
+                #            - name: Courses
+                #              url: courses/
+                #            - name: Tags
+                #              url: tags/
+                #            - name: Archive
+                #              url: archive/
+                #            - name: Blog
+                #              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+
+    socialIcons:
+        - name: CV
+          url: cv.pdf
+        - name: Email
+          url: mailto:ambrogifra@gmail.com
+        - name: Location
+          url: location/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=Xmie4zcAAAAJ&hl=en&oi=ao
+        - name: GitHub
+          url: https://github.com/FrancescoAmbrogi
+        - name: YouTube
+          url: https://www.youtube.com/@ambrogifra-fluids
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/francescoambrogi/
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Francesco Ambrogi"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

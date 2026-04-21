@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Francesco Ambrogi</title>
+    <link>http://localhost:1313/hugo-website/</link>
+    <description>Recent content on Francesco Ambrogi</description>
+    <generator>Hugo -- 0.160.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Location</title>
+      <link>http://localhost:1313/hugo-website/location/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-website/location/</guid>
+      <description>Francesco&amp;#39;s mailing and office addresses at McLaughlin Hall Room 230, Queen&amp;#39;s University.</description>
+    </item>
+    <item>
+      <title>Mechanical Engineering Banquet 2026</title>
+      <link>http://localhost:1313/hugo-website/posts/mme-banquet-26/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-website/posts/mme-banquet-26/</guid>
+      <description>Mechanical Engineering Banquet 2026.</description>
+    </item>
+    <item>
+      <title>Advanced Research Computing for Computational Fluid Dynamics</title>
+      <link>http://localhost:1313/hugo-website/projects/arc4cfd/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-website/projects/arc4cfd/</guid>
+      <description>This book discusses Portugese irregular verbs in great details.</description>
+    </item>
+    <item>
+      <title>Influence of time-varying freestream conditions on the dynamics of unsteady bou    ndary-layer separation</title>
+      <link>http://localhost:1313/hugo-website/talks/rmc_seminar_24/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-website/talks/rmc_seminar_24/</guid>
+      <description>Mechanical and Aerospace Engineering Research Seminar series.</description>
+    </item>
+  </channel>
+</rss>
